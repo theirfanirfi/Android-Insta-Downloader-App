@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_downloaded"
+        app:showAsAction="ifRoom"
+        android:title="Downloads"
+        android:icon="@mipmap/downloads"/>
+
+    <item android:id="@+id/item_clear"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/cleaner"
+        android:title="Clear All" />
+
+    <!--<item android:id="@+id/item_startservice"
+        app:showAsAction="ifRoom"
+        android:title="Stop Service" />-->
+
+    <item android:id="@+id/item_about"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/about"
+        android:title="About" />
+
+    <item android:id="@+id/item_rate"
+        app:showAsAction="ifRoom"
+        android:title="Rate App" />
+
+    <item android:id="@+id/item_moreapp"
+        app:showAsAction="ifRoom"
+        android:title="More Apps" />
+
+    <item
+        android:id="@+id/item_help"
+        app:showAsAction="ifRoom"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/item_autodownload"
+        android:checkable="true"
+        android:checked="false"
+        android:title="Auto Download"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

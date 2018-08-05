@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">iSave</string>
+    <string name="play_more_apps">https://play.google.com/store/search?q=vishal%20m%20parmar</string>
+    <string name="admob_unit_id">ca-app-pub-5728471427756018/2447472702</string>
+    <string name="admob_interstitial">ca-app-pub-8356404931736973/3012212799</string>
+    <string name="startapp_app_id">211954924</string>
+    <string name="startapp_dev_id">175594284</string>
+    <string name="iSaveAppId">211954924</string>
+    <string name="iSaveDevId">175594284</string>
+    <string name="iSaveBellowBtn">ca-app-pub-5728471427756018~7336795741</string>
+    <string name="iSaveBottom">ca-app-pub-5728471427756018/4465498479</string>
+    <string name="title_activity_howto">Howto</string>
+    <string name="action_settings">Settings</string>
+</resources>

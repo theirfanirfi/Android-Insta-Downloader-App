@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginBottom="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/imageView_pending"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:siBorderWidth="3dp"
+            app:siRadius="15dp"
+            app:siBorderColor="#f2f2f2"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView_pending_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:text="Post By: Chaman Topli"/>
+
+            <TextView
+                android:id="@+id/textView_pending_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type: video"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_pending_download"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_download"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#bcbcbc"/>
+
+</LinearLayout>
